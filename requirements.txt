@@ -1,0 +1,5 @@
+nltk==3.6.2
+Flask==2.0.1
+keras_nightly==2.5.0.dev2021032900
+numpy==1.19.5
+keras==2.4.3
