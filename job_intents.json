@@ -1,0 +1,55 @@
+{
+    "intents": [
+      {"tag": "greeting",
+       "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day", "Hey", "Ekse", "Hi"],
+       "responses": ["Hi stranger", "Yebo yes, how can I help", "Ey watsupp", "Ekse Hoezit", "Hola", "Hey dude", "You again"]
+      },
+      {"tag": "goodbye",
+       "patterns": ["Bye", "See you later", "Goodbye", "Ok bye", "Bye Bye"],
+       "responses": ["See you!", "Have a nice day", "Sure Bye", "Later dude", "Sayoonara", "Peace out", "Sure dude", "Ciao"]
+      },
+      {"tag": "thanks",
+       "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+       "responses": ["Happy to help!", "Any time!", "My pleasure", "You are welcome", "Sure dude"]
+      },
+      {"tag": "noanswer",
+       "patterns": [],
+       "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand", "I am still here dude"]
+       },
+       {"tag": "name",
+        "patterns": ["What is your name", "Whats your name", "Tell me your name", "Who are you", "Ungubani", "Tell me about yourself", "You are"],
+        "responses": ["I am Karabo", "My name is Karabo", "You can call me KB for short", "I am Karabo, my friends call me KB", "Karabo is my name"]
+        },
+        {"tag": "options",
+         "patterns": ["What do you do", "How can you help", "What do you know", "What is your purpose", "How can you help"],
+         "responses": ["I can tell you about South Africa", "I can give you interesting facts about South Africa"]
+        },
+       {"tag": "india_info",
+        "patterns": ["India", "What can you tell me about India", "Ind", "Tell me about Ind", "What about Ind", "What do you know about Ind", "Tell me more about Ind", "What can you tell me about India", "Tell me about India", "What about India", "What do you know about India", "Tell me more about India"],
+        "responses": ["India is a country in Asia, it has a population of almost 1 billion people and covers an area of 3.287 million km2. India has 27 official languages. The currency used in India is Indian Rupee. (INR)"]
+        },
+        {"tag": "india_facts",
+         "patterns": ["India Facts", "Ind Facts", "Give me some facts about Ind", "Give me some facts about India", "Ind Facts", "Ind interesting facts", "India facts", "India interesting facts", "Tell me something interesting"],
+         "responses": [
+           "When many cultures were only nomadic forest dwellers over 5000 years ago, Indians established Harappan culture in Sindhu Valley (Indus Valley Civilization)",
+           "The name 'India' is derived from the River Indus, the valleys around which were the home of the early settlers. The Aryan worshippers referred to the river Indus as the Sindhu.",
+           "The Persian invaders converted it into Hindu. The name 'Hindustan' combines Sindhu and Hindu and thus refers to the land of the Hindus.",
+           "Chess was invented in India.",
+           "Algebra, Trigonometry and Calculus are studies, which originated in India.",
+           "The 'Place Value System' and the 'Decimal System' were developed in India in 100 B.C.",
+           "The World's First Granite Temple is the Brihadeswara Temple at Tanjavur, Tamil Nadu. The shikhara of the temple is made from a single 80-tonne piece of granite. This magnificent temple was built in just five years, (between 1004 AD and 1009 AD) during the reign of Rajaraja Chola.",
+           "India never invaded any country in her last 100000 years of history.",
+           "The world's highest cricket ground is in Chail, Himachal Pradesh. Built in 1893 after leveling a hilltop, this cricket pitch is 2444 meters above sea level.",
+           "India has the largest number of Post Offices in the world.",
+           "The largest employer in India is the Indian Railways, employing over a million people.",
+           "Ayurveda is the earliest school of medicine known to mankind. The Father of Medicine, Charaka, consolidated Ayurveda 2500 years ago.",
+           "India was one of the richest countries till the time of British rule in the early 17th Century. Christopher Columbus, attracted by India's wealth, had come looking for a sea route to India when he discovered America by mistake.",
+           "The world's first university was established in Takshila in 700 BC. More than 10,500 students from all over the world studied more than 60 subjects. The University of Nalanda built in the 4th century was one of the greatest achievements of ancient India in the field of education.",
+           "Until 1896, India was the only source of diamonds in the world",
+           "Islam is India's and the world's second largest religion.",
+           "Sikhism originated in the Holy city of Amritsar in Punjab. Famous for housing the Golden Temple, the city was founded in 1577.",
+           "Martial Arts were first created in India, and later spread to Asia by Buddhist missionaries."
+         ]
+        }
+    ]
+  }
